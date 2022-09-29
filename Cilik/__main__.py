@@ -16,10 +16,11 @@ from Cilik import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from Cilik.helpers.misc import git, heroku
 
 MSG_ON = """
-✅ **KitUb Activated.**
-
-**🤖 Userbot Version -** `{}`
-**Ketik** `.kit` **untuk Mengecheck Bot**
+🔥 **ALBY-Userbot Berhasil Di Aktifkan**
+━━
+➠ **Userbot Version -** `{}`
+➠ **Ketik** `.ping` **untuk Mengecheck Bot**
+━━
 """
 
 
