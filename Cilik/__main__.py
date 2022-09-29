@@ -35,6 +35,7 @@ async def main():
         except Exception as a:
             LOGGER("main").warning(a)
     await idle()
+    await aiosession.close()
 
 
 if __name__ == "__main__":
