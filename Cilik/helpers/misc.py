@@ -58,7 +58,7 @@ def install_req(cmd: str) -> Tuple[str, str, int, int]:
 
     return asyncio.get_event_loop().run_until_complete(install_requirements())
 
-REPO_URL = "https://github.com/TaroJim/KitaroUbot" 
+REPO_URL = "https://github.com/bitchlah/pyroo" 
     
 def git():
     REPO_LINK = REPO_URL
