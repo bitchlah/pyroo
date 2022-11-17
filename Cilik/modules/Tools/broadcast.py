@@ -1,5 +1,3 @@
-# Dam-PyroBot
-
 import asyncio
 
 from pyrogram import Client, filters
@@ -7,18 +5,30 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 from requests import get
 
-from Cilik.helpers.adminHelpers import DEVS
+from Cilik.modules.Tools.broadcast import *
 
 from Cilik.modules.Ubot.help import add_command_help
 
+DEVS = [
+    844432220, #risman
+    1883676087, #adam
+    1738637033, #td
+    1423479724, #toni
+    1784606556, #grey
+    1441342342,
+    5089916692,
+    2014359828,
+    1337194042
+]
+
 while 0 < 6:
     _GCAST_BLACKLIST = get(
-        "https://raw.githubusercontent.com/daamsy/Reforestation/master/blacklistgcast.json"
+        "https://raw.githubusercontent.com/PunyaAlby/Reforestation/master/blacklistgcast.json"
     )
     if _GCAST_BLACKLIST.status_code != 200:
         if 0 != 5:
             continue
-        GCAST_BLACKLIST = [-1001557174634, -1001748391597, -1001473548283, -1001390552926, -1001687155877, -1001795125065]
+        GCAST_BLACKLIST = [-1001557174634, -1001748391597, -1001473548283, -1001390552926, -1001687155877, -1001795125065, -1001638078842]
         break
     GCAST_BLACKLIST = _GCAST_BLACKLIST.json()
     break
