@@ -96,9 +96,10 @@ else:
 
 bot1 = (
     Client(
-        session_string=STRING_SESSION1,
+        name="bot1",
         api_id=API_ID,
         api_hash=API_HASH,
+        session_string=STRING_SESSION1,
         plugins=dict(root="Cilik/modules"),
     )
     if STRING_SESSION1
