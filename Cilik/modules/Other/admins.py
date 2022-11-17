@@ -13,10 +13,10 @@ from pyrogram import Client, filters
 from pyrogram.errors import ChatAdminRequired
 from pyrogram.types import ChatPermissions, Message
 
-from PunyaAlby.modules.broadcast import *
-from PunyaAlby.helpers.basic import edit_or_reply
-from PunyaAlby.modules.help import *
-from PunyaAlby.utils.misc import extract_user, extract_user_and_reason, list_admins
+from Cilik.helpers.adminHelpers import DEVS
+from Cilik.helpers.basic import edit_or_reply
+from Cilik.modules.Ubot.help import add_command_help
+from Cilik.utils.misc import extract_user, extract_user_and_reason, list_admins
 
 mute_permission = ChatPermissions(
     can_send_messages=False,
