@@ -18,10 +18,10 @@ from pyrogram.types import Message
 
 from config import ALIVE_EMOJI, ALIVE_LOGO, ALIVE_TEKS_CUSTOM, BOT_VER, CHANNEL
 from config import GROUP
-from PunyaAlby import CMD_HELP, StartTime
-from PunyaAlby.helpers.basic import edit_or_reply
-from PunyaAlby.helpers.PyroHelpers import ReplyCheck
-from PunyaAlby.utils import get_readable_time
+from Cilik import CMD_HELP, StartTime
+from Cilik.helpers.basic import edit_or_reply
+from Cilik.helpers.PyroHelpers import ReplyCheck
+from Cilik.utils import get_readable_time
 
 from .help import add_command_help
 
